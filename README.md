@@ -2,13 +2,16 @@
 ## Convert Youtube Video To Mp3 using python
 ## 1. Using This Tool You Can Download & Convert YouTube Video To Mp3
 
-# install
+# Install
 
 * `pip3 install pytube3`
 
 * `pip3 install moviepy`
 
 * `git clone https://github.com/SuvarneshKM/youtube-to-mp3.git`
+
+# Run
+ROOT IS NOT REQUIRED 
 
 * `cd youtube-to-mp3`
 
