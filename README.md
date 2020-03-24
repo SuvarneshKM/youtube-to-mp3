@@ -10,6 +10,12 @@
 
 * `pip3 install moviepy`
 
+* `pip3 install eyed3
+
+* `pip3 install requests
+
+* `pip3 install os
+
 * `git clone https://github.com/SuvarneshKM/youtube-to-mp3.git`
 
 # Run
