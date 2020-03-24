@@ -6,17 +6,17 @@
 
 # Install
 
-* `pip3 install pytube3`
+pip3 install pytube
 
-* `pip3 install moviepy`
+pip3 install moviepy
 
-* `pip3 install eyed3
+pip3 install eyed3
 
-* `pip3 install requests
+pip3 install requests
 
-* `pip3 install os
+pip3 install os
 
-* `git clone https://github.com/noel-emmanuel/youtube-to-mp3.git
+git clone https://github.com/noel-emmanuel/youtube-to-mp3.git
 
 # Run
 ROOT IS NOT REQUIRED 
