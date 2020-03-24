@@ -16,7 +16,7 @@ pip3 install requests
 
 pip3 install os
 
-git clone https://github.com/noel-emmanuel/youtube-to-mp3.git
+git clone https://github.com/SuvarneshKM/youtube-to-mp3.git
 
 # Run
 ROOT IS NOT REQUIRED 
