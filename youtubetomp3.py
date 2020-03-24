@@ -10,6 +10,7 @@ import requests
 # user inputs
 yt_link = input("Enter The YouTube Link { with https } : ")
 path1 = input("Enter The Download Path : ")
+artist_name = input("Enter artist_name : ")
 
 # downloading video using pytube
 yt = YouTube(yt_link)
@@ -65,9 +66,9 @@ if (audiofile.tag == None):
     audiofile.initTag()
 
 audiofile.tag.images.set(3, open(path4,'rb').read(), 'image/jpeg')
-
+audiofile.tag.album_artist = artist_name
 audiofile.tag.save()
 
 # deleting the thumbnail as it's not needed anymore
 os.remove(path4)
-print("Song downloaded successfully :)")
+print(song_name + " downloaded successfully :)")
