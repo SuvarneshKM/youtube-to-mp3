@@ -21,6 +21,6 @@ ROOT IS NOT REQUIRED
 
 * `cd youtube-to-mp3`
 
-* `open list.txt and fill it up with youtube links on each line`
+* open list.txt and fill it up with youtube links on each line
 
-* `open terminal and run - python3 app.py`
+* `python3 app.py`
