@@ -1,5 +1,5 @@
-# YouTube links to mp3 converter
-## Bulk convert YouTube links in .txt file to mp3 format in the command line (using Python3).
+# YouTube links to mp3 converter (Python3)
+## Bulk convert YouTube links in .txt file to mp3 format in the command line.
 
 
 # Install
