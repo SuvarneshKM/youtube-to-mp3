@@ -88,4 +88,4 @@ with open('list.txt') as f:
 
         # deleting the thumbnail as it's not needed anymore
         os.remove(path4)
-        print(good(green(song_name + " created :) -----------------------------------\n")))
+        print(good(green(song_name + " created :)\n")))
