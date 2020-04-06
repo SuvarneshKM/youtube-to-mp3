@@ -13,6 +13,8 @@
 
 `pip3 install huepy`
 
+`pip3 install os` (might already be installed)
+
 # Usage
 
 ROOT IS NOT REQUIRED
