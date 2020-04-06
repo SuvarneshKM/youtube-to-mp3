@@ -1,32 +1,27 @@
-# youtube-to-mp3
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FSuvarneshKM%2Fyoutube-to-mp3.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FSuvarneshKM%2Fyoutube-to-mp3?ref=badge_shield)
+# YouTube links to mp3 converter
+## Bulk convert YouTube links in .txt file to mp3 format in the command line (using Python3).
 
-## Convert YouTube videos to mp3 format from the command line (using Python)
-## 1. Using This Tool You Can Download & Convert YouTube Video To Mp3
 
 # Install
 
-pip3 install pytube
+`pip3 install pytube`
 
-pip3 install moviepy
+`pip3 install moviepy`
 
-pip3 install eyed3
+`pip3 install eyed3`
 
-pip3 install requests
+`pip3 install requests`
 
-pip3 install os
+`pip3 install huepy`
 
-git clone https://github.com/noel-emmanuel/youtube-to-mp3.git
+# Usage
 
-# Run
-ROOT IS NOT REQUIRED 
+ROOT IS NOT REQUIRED
+
+* `git clone https://github.com/noel-emmanuel/youtube-to-mp3.git`
 
 * `cd youtube-to-mp3`
 
-* `python3 youtubetomp3.py`
+* `open list.txt and fill it up with youtube links on each line`
 
-
-
-
-## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FSuvarneshKM%2Fyoutube-to-mp3.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FSuvarneshKM%2Fyoutube-to-mp3?ref=badge_large)
+* `open terminal and run - python3 app.py`
