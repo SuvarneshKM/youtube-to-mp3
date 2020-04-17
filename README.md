@@ -3,7 +3,9 @@
 
 # Install
 
-`pip3 install pytube`
+`apt install ffmpeg`
+
+`pip3 install pytube3`
 
 `pip3 install moviepy`
 
@@ -11,18 +13,4 @@
 
 `pip3 install requests`
 
-`pip3 install huepy`
-
 `pip3 install os` (might already be installed)
-
-# Usage
-
-ROOT IS NOT REQUIRED
-
-* `git clone https://github.com/noel-emmanuel/youtube-to-mp3.git`
-
-* `cd youtube-to-mp3`
-
-* open list.txt and fill it up with youtube links on each line
-
-* `python3 app.py`
