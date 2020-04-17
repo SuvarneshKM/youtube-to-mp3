@@ -1,20 +1,50 @@
-#!/usr/bin/env python
-
-# importing the modules
+# importing the gang
+import time
+from selenium import webdriver
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.options import Options
 from pytube import YouTube
 import os
 from moviepy.editor import *
 import eyed3
 import requests
-from huepy import *
 
+path1 = input("Enter Download Path or press . to download in current directory : ")
 
-# a path to store the downloaded music files
-path1 = input(run("Enter Download Path or press . to download in current directory : "))
+# setting up selenium
+chrome_options = Options()
+chrome_options.add_argument("--no-sandbox")
+chrome_options.add_argument("--disable-setuid-sandbox")
+driver = webdriver.Chrome('/home/noel/Documents/chromedriver', chrome_options=chrome_options) # put the path to your chrome driver here after installing it
+driver.get('https://www.youtube.com/channel/UCR2XQYvNR0zA3FOyFYgZL8g/videos'); # request website
+
+for i in list(range(0, 4)):
+    driver.execute_script("window.scrollTo(0, 3000)")
+    time.sleep(1)
+
+text_file = open("results.txt", "w")
+
+scrape_all_links = driver.find_elements_by_xpath('//*[@id="video-title"]') # returns an array with the selenium location
+links = [] # an array to store the links
+for href in scrape_all_links:
+    links.append(href.get_attribute('href')) # get href of each element and append it to the array
+# print(links)
+
+for each_link in links:
+    text_file.write(each_link + "\n")
+
+text_file.close()
+# driver.quit()
+print("---------------")
+print("\n" + str(len(links)) + " links scraped. Check 'results.txt' to see the data!" + "\n")
+print("---------------")
+
+# ------------------ SELENIUM PROCESS DONE. INITIATING PYTUBE --------------------------
 
 # open txt file with links, remove newlines and download each link
-print("Reading link in list.txt...")
-with open('list.txt') as f:
+print("Reading link in results.txt...")
+with open('results.txt') as f:
     alist = [line.rstrip() for line in f]
     for line in alist:
         print(line)
@@ -88,4 +118,6 @@ with open('list.txt') as f:
 
         # deleting the thumbnail as it's not needed anymore
         os.remove(path4)
-        print(good(green(song_name + " created :)\n")))
+        print(song_name + " created :)\n")
+
+print("Finished!")
