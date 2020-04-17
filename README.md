@@ -1,4 +1,4 @@
-## Bulk convert YouTube links in .txt file to mp3 format in the command line.
+## Under development: Converting videos on a channel to mp3 format in the command line.
 
 
 # Install
