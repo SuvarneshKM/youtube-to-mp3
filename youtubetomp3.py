@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from pytube import YouTube
+from pytube3 import YouTube
 import os
 from moviepy.editor import *
 import eyed3
