@@ -6,7 +6,7 @@
 
 # Install
 
-* `pip3 install pytube`
+* `pip3 install pytube3`
 
 * `pip3 install moviepy`
 
