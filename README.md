@@ -1,5 +1,4 @@
 # youtube-to-mp3
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FSuvarneshKM%2Fyoutube-to-mp3.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FSuvarneshKM%2Fyoutube-to-mp3?ref=badge_shield)
 
 ## Convert YouTube videos to mp3 format from the command line (using Python)
 ## 1. Using This Tool You Can Download & Convert YouTube Video To Mp3
